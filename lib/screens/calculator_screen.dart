@@ -137,7 +137,7 @@ class CalculatorScreen extends StatelessWidget {
                   CalculatorButton( 
                     text: '=',
                     bgColor: Color(0xffF0A23B ),
-                    onPressed: () => calculatorCtrl.setNumber('='),
+                    onPressed: () => calculatorCtrl.calculateResult(),
                   ),
                 ],
               ),
